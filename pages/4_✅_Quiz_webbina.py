@@ -198,8 +198,7 @@ def quiz():
                 
         key = 'FormSubmitter:my_form-Submit'
 
-            
-root_path = "/Users/marianna/vscode/stemdays/img_quiz"
+        
 
 lista_di_immagini = ["stanza1.jpeg", 'stanza2.jpeg', 'stanza3.jpeg', 'stanza4.jpeg', 'stanza5.jpeg',
              'stanza6.jpeg', 'stanza7.jpeg', 'stanza8.jpeg']
