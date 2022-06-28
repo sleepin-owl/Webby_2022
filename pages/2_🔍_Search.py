@@ -36,8 +36,7 @@ def style():
     
     st.markdown("<h2 class='title-search';'> Ricerca la canzone</h2>", unsafe_allow_html=True)
     selected_song = st.selectbox(
-                ('Inserisci il nome della canzone', tracks_data['song_name'])
-                default="Style"
+                ('Inserisci il nome della canzone', tracks_data['song_name'], default = "Style")
     )
     selected_song_row = tracks_data[tracks_data['song_name'] == selected_song]
     # st.write(selected_song_row)
