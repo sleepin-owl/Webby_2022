@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-root_path = "/Users/marianna/vscode/stemdays/img_quiz"
+root_path = "/app/webby_2022/img_quiz"
 
 imagelist = ["claraimage.jpeg", 'beatriceimage.jpeg', 'giorgiaimage.jpeg', 'kikimage.jpeg', 'paolaimage.jpeg', 'jessicaimage.jpeg', 'mariannaimage.jpeg', 'silviaimage.jpeg']
 
