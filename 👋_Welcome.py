@@ -22,7 +22,7 @@ def presentation():
 
     with st_quiz:
         st.markdown("<h1 class='title';'> Quiz ✅</h1>", unsafe_allow_html=True)
-        st.markdown("<p class='site-description';'>A meno che tu non sia un alieno malvagio, anche a tu fai i quiz per sapere che verdura sei (ammettilo), quindi perché non dai un'occhiata ai nostri?</p>", unsafe_allow_html=True)
+        st.markdown("<p class='site-description';'>A meno che tu non sia un alieno malvagio, anche tu fai i quiz per sapere che verdura sei (ammettilo), quindi perché non dai un'occhiata ai nostri?</p>", unsafe_allow_html=True)
 
 
 def main ():
