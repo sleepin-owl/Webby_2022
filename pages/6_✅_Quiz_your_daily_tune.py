@@ -229,13 +229,8 @@ def quiz_uno():
                        regaettonpoints]
         max_value = max(lista_punti)
         if submitted:
-            if max_value == rappoints:
-
-                st.write("Sei rap!")
-            elif max_value == rockpoints:
-
-                st.write("Sei rock!")
-            elif max_value == edmpoints:
+   
+            if max_value == edmpoints:
                 
                 st.markdown("""<h2>SEI EDM!</h2>""", unsafe_allow_html=True)
                 st.markdown("""<p class='site-description';> La discoteca è la tua casa e sicuramente sai come divertirti! I tuoi amici potrebbero lamentarsi e dire che sei troppo rumorosə, ma sei solo estroversə. Attenzione: nel giro di un paio d'anni potresti aver bisogno di un apparecchio acustico, quindi inizia a mettere da parte un po' di soldi. </p>""", unsafe_allow_html=True)
