@@ -148,7 +148,7 @@ def quiz_uno():
 
             rappoints = rappoints + 1
             classicapoints = classicapoints + 1
-        elif tv == "Indie":
+        elif tv == "Anime":
 
             indiepoints = indiepoints + 1
             rockpoints = rockpoints + 1
