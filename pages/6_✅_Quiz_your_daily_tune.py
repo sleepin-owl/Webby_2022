@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 root_path = "/app/webby_2022/img_quiz"
 
