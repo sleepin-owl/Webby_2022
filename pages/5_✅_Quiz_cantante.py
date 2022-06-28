@@ -67,7 +67,7 @@ def quiz():
         answer2ma = st.radio('A chi è dedicata "Coraline"?', choices2ma)
         if answer2ma == "Giorgia Soleri":
             artistpointslist["Maneskin"] += 1
-        choices3ma = ["Thomas", "Victoria", "Domiano", "Ethan"]
+        choices3ma = ["Thomas", "Victoria", "Damiano", "Ethan"]
         answer3ma = st.radio("Come si chiama il/la batterista?", choices3ma)
         if answer3ma == "Ethan":
             artistpointslist["Maneskin"] += 1
